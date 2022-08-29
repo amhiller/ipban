@@ -1,0 +1,8 @@
+{
+  "/": "api docs",
+  "/ipban": "Get all bad IPs (allowed and not allowed)",
+  "/updateip": "POST IPs",
+  "/goodip": "Get all allowed ips",
+  "/badip": "Get only the not allowed bad ips",
+  "/ipbanip": "Pass in IP and get single IP"
+}

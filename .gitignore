@@ -1,0 +1,6 @@
+api/node_modules/
+api/package-lock.json
+
+python-extraction/extraction/.venv/
+python-extraction/extraction/response.txt
+

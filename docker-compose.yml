@@ -1,0 +1,21 @@
+version: '3.9'
+services:
+  api:
+    links:
+      - mongo
+    build:
+      dockerfile: Dockerfile
+      context: ./api
+    ports:
+      - 8080:8080
+    depends_on:
+      - mongo
+  mongo:
+    image: mongo:latest
+    container_name: mongo
+    environment:
+      - MONGO_INITDB_DATABASE=ipdb
+    ports:
+      - 27017:27017
+
+
